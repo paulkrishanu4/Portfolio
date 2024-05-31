@@ -4,7 +4,7 @@ import './Projects.css';
 export const Projects = () => {
   return (
     <div id='projects' className="container" style={{marginTop:"100px"}}>
-      <a style={{margin:"50px",color: 'white',display:"flex",justifyContent: 'center',alignItems: 'center',fontSize:"50px",fontWeight:"bold",borderBottom:"2px solid rgb(15, 105, 169)"}}>Latest Works</a>
+      <a className="latest-w" style={{margin:"50px",color: 'white',display:"flex",justifyContent: 'center',alignItems: 'center',fontWeight:"bold",borderBottom:"2px solid rgb(15, 105, 169)",textDecoration:"none"}}>Latest Works</a>
       <div className="project1">
         <div className="right-one">
           <h1>Booking.com</h1>

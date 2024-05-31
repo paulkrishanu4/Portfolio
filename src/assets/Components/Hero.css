@@ -49,3 +49,24 @@
 #transform{
   transition: max-height 0.5s ease;
 }
+
+@media(max-width:500px){
+  .btn1{
+    background:blueviolet;
+    height:50px;
+    width:120px;
+    display: flex;
+    padding: 5px;
+    color:white;
+    border:2px solid rgb(83, 112, 172);
+    transition: 0.3s ease;
+  }
+
+  .btn2{
+    background:blueviolet;
+    border:2px solid rgb(83, 112, 172);
+    color:white;
+    margin-bottom: -700px;
+  }
+
+}

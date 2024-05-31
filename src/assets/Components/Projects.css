@@ -41,6 +41,9 @@
   transform:scale(1.1);
 
 }
+.latest-w{
+  font-size:50px;
+}
 
 @media(max-width:1000px){
   .project1{
@@ -49,4 +52,18 @@
   .right-one{
     align-items: center;
   }
+}
+
+@media(max-width:500px){
+  .latest-w{
+    font-size:40px;
+  }
+  .project1 img{
+    width:340px;
+  }
+  .project1{
+    justify-content: center;
+    align-items: center;
+  }
+
 }

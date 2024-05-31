@@ -58,3 +58,11 @@
   }
 
 }
+
+@media(max-width:500px){
+  .contact img{
+    height:250px;
+    width:400px;
+  }
+
+}
