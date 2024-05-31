@@ -1,0 +1,52 @@
+.project1{
+  margin-bottom:120px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.right-one{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  gap:10px;
+  color:white;
+  margin:20px;
+}
+.techs{
+  gap:10px;
+}
+.techs a{
+  background:rgb(15, 105, 169);
+  padding: 5px;
+  border-radius:10px;
+}
+.code button{
+  height:40px;
+  width:100px;
+  border-radius: 10px;
+  border:none;
+  background: rgb(15, 105, 169);
+  color:white;
+}
+.code button:hover{
+  cursor:pointer;
+  transform: scale(1.1);
+  background: transparent;
+  border:2px solid white;
+}
+.left-one img{
+  transition: 0.3s ease;
+}
+.left-one img:hover{
+  cursor:pointer;
+  transform:scale(1.1);
+
+}
+
+@media(max-width:1000px){
+  .project1{
+    flex-wrap: wrap;
+  }
+  .right-one{
+    align-items: center;
+  }
+}
