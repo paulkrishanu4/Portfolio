@@ -58,13 +58,13 @@
     display: flex;
     padding: 5px;
     color:white;
-    border:2px solid rgb(83, 112, 172);
+    border:2px solid blueviolet;
     transition: 0.3s ease;
   }
 
   .btn2{
     background:blueviolet;
-    border:2px solid rgb(83, 112, 172);
+    border:2px solid blueviolet;
     color:white;
     margin-bottom: -700px;
   }
