@@ -6,6 +6,25 @@ export const Projects = () => {
     <div id='projects' className="container" style={{marginTop:"100px"}}>
       <a className="latest-w" style={{margin:"50px",color: 'white',display:"flex",justifyContent: 'center',alignItems: 'center',fontWeight:"bold",borderBottom:"2px solid rgb(15, 105, 169)",textDecoration:"none"}}>Latest Works</a>
       <div className="project1">
+        <div className="left-one">
+        <a href="https://delightful-bublanina-fc1972.netlify.app/" style={{textDecoration:"none", color:"black"}}><img src="./movieapp.jpeg" height="300px" minWidth="200px" border="10px solid "></img></a>
+        </div>
+        <div className="right-one" style={{marginLeft:"40px"}}>
+          <h1>Movie-App</h1>
+          <p>Movie-App displays the movies released till date by fetching API.This app streams trailers from youtube aslo users can create their favourite list of movies by searching them.</p>
+          <div className="techs" style={{display:"flex"}}>
+            <a>#React.js</a>
+            <a>#JavaScript</a>
+            <a>#CSS</a>
+            <a>#Bootstrap</a>
+          </div>
+          <div className="code" style={{display:"flex",gap:"20px"}}>
+            <a href="https://delightful-bublanina-fc1972.netlify.app/"><button>Live</button></a>
+            <a href="https://github.com/paulkrishanu4/Movie-App?tab=readme-ov-file"><button>Code</button></a>
+          </div>
+        </div>
+      </div>
+      <div className="project1">
         <div className="right-one">
           <h1>Booking.com</h1>
           <h5>(Property booking site)</h5>
